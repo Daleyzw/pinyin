@@ -5,7 +5,7 @@
 #### Install
 
 ```
-composer require daleyzw/pinyin
+composer require yuzhiwei/pinyin
 ```
 
 #### Example
@@ -21,6 +21,10 @@ var_dump($testStr); //string(13) "nihaozhongguo"
 $testStr1 = $pinyin->transformUcwords("中国");
 
 var_dump($testStr1);  //string(2) "ZG"
+
+$testStr1 = $pinyin->transformFirstUcwords("北京");
+
+var_dump($testStr1);  //string(2) "B"
 
 //有声调
 $testStr2 = $pinyin->transformWithTone("你好，中国");
