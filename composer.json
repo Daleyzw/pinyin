@@ -1,0 +1,21 @@
+{
+    "name": "yuzhiwei/pinyin",
+    "description": "解析中文的拼音",
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DaleYu",
+            "email": "nephyzw@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "DaleYu\\Pinyin\\": "src/"
+        }
+    }
+}
