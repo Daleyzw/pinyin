@@ -12,7 +12,7 @@
             "email": "nephyzw@outlook.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "DaleYu\\Pinyin\\": "src/"
